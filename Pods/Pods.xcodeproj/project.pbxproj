@@ -1,0 +1,1051 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E3F0D452B5244D59ACE08A8C8A4935 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		01C71AFEDCF18DFAF546217AB8EDA1A0 /* CircularSpinner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97D87A440349FEC60998E9C1FEFD8F86 /* CircularSpinner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19634A70810ECCF2DAA3E15FBC61A2F4 /* x_darkGray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D688B243D8119B87613D020D63040804 /* x_darkGray@2x.png */; };
+		23D7D136C4A7FD5F577D9136E9766AD4 /* CircularSpinner.xib in Sources */ = {isa = PBXBuildFile; fileRef = DE52FE3A05DC0044F53261C81AB178C3 /* CircularSpinner.xib */; };
+		2514AA031D335B355FD9BF70A1D2ED0C /* CheapMp3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F161D73F78632CD30464D9A03046C306 /* CheapMp3.swift */; };
+		2A270F10600B4ECE2BA206DA1BA68A9C /* ControllerWaveForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2EEDC188CB631F89970CD287330E05 /* ControllerWaveForm.swift */; };
+		2C4841A8653231A3954B984CD8A1B0B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		2C71D0F1ABC3D66F3C5CE74B3C158C2D /* CircularSpinner.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2D5F8A3CC9C88BB35EBA7D89D6F2BA12 /* CircularSpinner.bundle */; };
+		5C4006186737C53D28D591345F96A0BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		68E128CEB957FB781DEFE5F100296D3E /* CircularSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6D0EBEBA53C43005F99181A79FB432 /* CircularSpinner-dummy.m */; };
+		72C1E576FC78D588D822DFA1C250CE88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		754C8514EF548AAE3EC1473710F2C2CF /* x_darkGray@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = DDCDA638329F3BCB147C17B6B38D3FB5 /* x_darkGray@3x.png */; };
+		762391BBD436B5E89CC0AB0B9DD1F996 /* WaveForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE01E5F4FE9096F652F5037DBEF39A7B /* WaveForm.swift */; };
+		78E2A186CCA5C80FB72F348F54E49581 /* Pods-SoundWavePlayerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AF2ED3D05BCEDF69D0CFADEECAA66CC /* Pods-SoundWavePlayerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		871ECC2F576D74B2DE569B910432EB44 /* CustomButtom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85345F50F832DDB28E31EF7D23C29E4C /* CustomButtom.swift */; };
+		8BA9A04998222FF2077598E4E8A4474D /* Pods-SoundWavePlayerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FF39F8DE344E9B6AF747E8D1AA00C6 /* Pods-SoundWavePlayerTests-dummy.m */; };
+		8CBCF37FDC7C88782742E0056FF7B454 /* waveFormLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48426EE82018711E764FE03747D66721 /* waveFormLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F40648760C8AEC3A62E8E353314F013 /* PlayButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56B1C849D5B1144DEF3B948DB7649F4 /* PlayButtonView.swift */; };
+		9FF782524673818AD914B3B464736683 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		A0DC60168BA566439D224D1DEFFB7D4A /* WaveFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD51A7D730814CC626EB83C00F886232 /* WaveFormView.swift */; };
+		A0DD749562E1CA4916A0BF83CB9DF348 /* Pods-SoundWavePlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFF47616B20003F9BB36794F7EA16EA /* Pods-SoundWavePlayer-dummy.m */; };
+		A494F8837E5569378458B2AFF7E981F0 /* Pods-SoundWavePlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE197EDA1027CE76343E0F93750187E2 /* Pods-SoundWavePlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF4DED0E2AC5C98BA856E752FB6D653E /* CircularSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157CA20EE0CAEB4588BFA6155554569 /* CircularSpinner.swift */; };
+		B437E9BF92BBBD95FCC24B4BE97579B2 /* UtilFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECE5C62FF4A167F4B4091793BF18335 /* UtilFunction.swift */; };
+		B9CA717C44476274DEA770B24A811DCB /* x_darkGray@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDCDA638329F3BCB147C17B6B38D3FB5 /* x_darkGray@3x.png */; };
+		DD8837B78A8A7637683FE9908DDF09B2 /* x_darkGray@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = D688B243D8119B87613D020D63040804 /* x_darkGray@2x.png */; };
+		EC85D5A4F490BBAC176641D900DCEAC1 /* ControllerWF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C80D785E3B5F8A98AFB28C933819FB /* ControllerWF.swift */; };
+		F2D597777BDE021E2FB117E25C14F34D /* waveFormLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20120FBCCDC63C85F1EE0D1846ADD10F /* waveFormLibrary-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		564302A4555CEE87DC94E2EF65DE15DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D780F80A5793F3EFDAC1606AAA75B388;
+			remoteInfo = CircularSpinner;
+		};
+		8829F8979CB71E0870826A8FB7EB26E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C63CB4AE559E609E163642ED2A914D4D;
+			remoteInfo = "CircularSpinner-CircularSpinner";
+		};
+		AA04585276906A1433DA53887AF50799 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C49DBDF368B4EF3160DFA21A67459786;
+			remoteInfo = waveFormLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02BA47F67851B1C34105D3D8E3945C74 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C45203E01305F0B585607FBE69B884C /* Pods-SoundWavePlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundWavePlayer.release.xcconfig"; sourceTree = "<group>"; };
+		1384FDC4B5C77433AF5EC4E94B86AF6A /* ResourceBundle-CircularSpinner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CircularSpinner-Info.plist"; sourceTree = "<group>"; };
+		1C1F32FED55B5362635D055EC49EB695 /* Pods-SoundWavePlayer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoundWavePlayer-frameworks.sh"; sourceTree = "<group>"; };
+		20120FBCCDC63C85F1EE0D1846ADD10F /* waveFormLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "waveFormLibrary-dummy.m"; sourceTree = "<group>"; };
+		223692F85874B3BC68B32D6CFD316067 /* Pods-SoundWavePlayer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoundWavePlayer-resources.sh"; sourceTree = "<group>"; };
+		229514520F334AC7FEDD73D49B933D4A /* Pods-SoundWavePlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundWavePlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		26B15C187B0458D3CDBA0278A262E9F1 /* Pods-SoundWavePlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SoundWavePlayer.modulemap"; sourceTree = "<group>"; };
+		2D5F8A3CC9C88BB35EBA7D89D6F2BA12 /* CircularSpinner.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CircularSpinner.bundle; path = CircularSpinner.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD29B702097BF706CA694BC03C43F2C /* waveFormLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = waveFormLibrary.xcconfig; sourceTree = "<group>"; };
+		31AB143ADB1C70C37D6FC9EE23706671 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45FEC931A09FA7A8409957A609487FE5 /* waveFormLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = waveFormLibrary.modulemap; sourceTree = "<group>"; };
+		48426EE82018711E764FE03747D66721 /* waveFormLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "waveFormLibrary-umbrella.h"; sourceTree = "<group>"; };
+		4A7430B500D311E0394B951E51128B36 /* Pods-SoundWavePlayerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SoundWavePlayerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4F6D0EBEBA53C43005F99181A79FB432 /* CircularSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CircularSpinner-dummy.m"; sourceTree = "<group>"; };
+		64B2435E287BFED414F1EC5EBC366E34 /* Pods-SoundWavePlayerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoundWavePlayerTests-frameworks.sh"; sourceTree = "<group>"; };
+		6AF2ED3D05BCEDF69D0CFADEECAA66CC /* Pods-SoundWavePlayerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SoundWavePlayerTests-umbrella.h"; sourceTree = "<group>"; };
+		6F65917A92C7172398CDB768FBE8C53E /* Pods-SoundWavePlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundWavePlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		7411B2957A1792A4F23B09299C6A5229 /* Pods-SoundWavePlayerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoundWavePlayerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		76126F45A4AC2D101DF2F0767F1D7E38 /* Pods-SoundWavePlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundWavePlayerTests.release.xcconfig"; sourceTree = "<group>"; };
+		77C80D785E3B5F8A98AFB28C933819FB /* ControllerWF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControllerWF.swift; path = waveFormLibrary/ControllerWF.swift; sourceTree = "<group>"; };
+		7B05F71C3A7A84D3CFD9D65060498DFA /* CircularSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircularSpinner.xcconfig; sourceTree = "<group>"; };
+		7B2EEDC188CB631F89970CD287330E05 /* ControllerWaveForm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControllerWaveForm.swift; path = waveFormLibrary/ControllerWaveForm.swift; sourceTree = "<group>"; };
+		7B79D48053B3C9C42A4F503E68A8A76E /* CircularSpinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CircularSpinner.modulemap; sourceTree = "<group>"; };
+		81D5A8309B16D8DCB9CD60F9B3845B66 /* CircularSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircularSpinner-prefix.pch"; sourceTree = "<group>"; };
+		84D361EAC2DCC5C0F7BCF7E1B1327F11 /* waveFormLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = waveFormLibrary.framework; path = waveFormLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85345F50F832DDB28E31EF7D23C29E4C /* CustomButtom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomButtom.swift; path = waveFormLibrary/CustomButtom.swift; sourceTree = "<group>"; };
+		8BFF47616B20003F9BB36794F7EA16EA /* Pods-SoundWavePlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SoundWavePlayer-dummy.m"; sourceTree = "<group>"; };
+		8D01FC28FEE2BF5689BD83F2F8BED418 /* Pods-SoundWavePlayerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SoundWavePlayerTests.modulemap"; sourceTree = "<group>"; };
+		8ECE5C62FF4A167F4B4091793BF18335 /* UtilFunction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UtilFunction.swift; path = waveFormLibrary/UtilFunction.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97D87A440349FEC60998E9C1FEFD8F86 /* CircularSpinner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircularSpinner-umbrella.h"; sourceTree = "<group>"; };
+		99E7C46B04D4480B1C1AE43F56535A50 /* Pods_SoundWavePlayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SoundWavePlayerTests.framework; path = "Pods-SoundWavePlayerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BCF86D9243947CB20BBEB3F3A8E67AF /* waveFormLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "waveFormLibrary-prefix.pch"; sourceTree = "<group>"; };
+		ACBAD0D5781F4DFA0F03495554291C5E /* Pods-SoundWavePlayer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SoundWavePlayer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AD51A7D730814CC626EB83C00F886232 /* WaveFormView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WaveFormView.swift; path = waveFormLibrary/WaveFormView.swift; sourceTree = "<group>"; };
+		AFE9B4E703FEEC1856D5B1764A5A64A2 /* Pods-SoundWavePlayerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoundWavePlayerTests-resources.sh"; sourceTree = "<group>"; };
+		B060837F90E42498F2D044B893C860E1 /* CircularSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CircularSpinner.framework; path = CircularSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C0BFE41092FA0778E33E8472FF80F30F /* Pods_SoundWavePlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SoundWavePlayer.framework; path = "Pods-SoundWavePlayer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56B1C849D5B1144DEF3B948DB7649F4 /* PlayButtonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlayButtonView.swift; path = waveFormLibrary/PlayButtonView.swift; sourceTree = "<group>"; };
+		CE01E5F4FE9096F652F5037DBEF39A7B /* WaveForm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WaveForm.swift; path = waveFormLibrary/WaveForm.swift; sourceTree = "<group>"; };
+		D688B243D8119B87613D020D63040804 /* x_darkGray@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "x_darkGray@2x.png"; path = "CircularSpinner/Assets/x_darkGray@2x.png"; sourceTree = "<group>"; };
+		D87FFBCAD69B180EBC1B8BDC38A88718 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DDCDA638329F3BCB147C17B6B38D3FB5 /* x_darkGray@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "x_darkGray@3x.png"; path = "CircularSpinner/Assets/x_darkGray@3x.png"; sourceTree = "<group>"; };
+		DE52FE3A05DC0044F53261C81AB178C3 /* CircularSpinner.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CircularSpinner.xib; path = CircularSpinner/Classes/CircularSpinner.xib; sourceTree = "<group>"; };
+		DEFFB8006AD50244E5A1A958D6ED7A9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0FF39F8DE344E9B6AF747E8D1AA00C6 /* Pods-SoundWavePlayerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SoundWavePlayerTests-dummy.m"; sourceTree = "<group>"; };
+		E157CA20EE0CAEB4588BFA6155554569 /* CircularSpinner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularSpinner.swift; path = CircularSpinner/Classes/CircularSpinner.swift; sourceTree = "<group>"; };
+		EE197EDA1027CE76343E0F93750187E2 /* Pods-SoundWavePlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SoundWavePlayer-umbrella.h"; sourceTree = "<group>"; };
+		EE806B003E33FDD0136958FAB8339F40 /* Pods-SoundWavePlayer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoundWavePlayer-acknowledgements.plist"; sourceTree = "<group>"; };
+		F161D73F78632CD30464D9A03046C306 /* CheapMp3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheapMp3.swift; path = waveFormLibrary/CheapMp3.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		287FECA9F70AAB0D43481F55A817318D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C1E576FC78D588D822DFA1C250CE88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF133044F16DEDFBD7533F1443E7BD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815D5A1AA0A09FC09DB8538A8F0F5C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF782524673818AD914B3B464736683 /* Foundation.framework in Frameworks */,
+				5C4006186737C53D28D591345F96A0BB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF5A0BEAAFDFA0316FCDA068433F9C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C4841A8653231A3954B984CD8A1B0B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F525C9FB19B7FC86BD631F39E314D163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E3F0D452B5244D59ACE08A8C8A4935 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AAF8578A86EEA2210BAD53E2263F34D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1AD185FF6C8C446D32072A520F8C6D13 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B79D48053B3C9C42A4F503E68A8A76E /* CircularSpinner.modulemap */,
+				7B05F71C3A7A84D3CFD9D65060498DFA /* CircularSpinner.xcconfig */,
+				4F6D0EBEBA53C43005F99181A79FB432 /* CircularSpinner-dummy.m */,
+				81D5A8309B16D8DCB9CD60F9B3845B66 /* CircularSpinner-prefix.pch */,
+				97D87A440349FEC60998E9C1FEFD8F86 /* CircularSpinner-umbrella.h */,
+				31AB143ADB1C70C37D6FC9EE23706671 /* Info.plist */,
+				1384FDC4B5C77433AF5EC4E94B86AF6A /* ResourceBundle-CircularSpinner-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CircularSpinner";
+			sourceTree = "<group>";
+		};
+		232099C897F9337550B3B953C14B6AA3 /* Pods-SoundWavePlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D87FFBCAD69B180EBC1B8BDC38A88718 /* Info.plist */,
+				8D01FC28FEE2BF5689BD83F2F8BED418 /* Pods-SoundWavePlayerTests.modulemap */,
+				4A7430B500D311E0394B951E51128B36 /* Pods-SoundWavePlayerTests-acknowledgements.markdown */,
+				7411B2957A1792A4F23B09299C6A5229 /* Pods-SoundWavePlayerTests-acknowledgements.plist */,
+				E0FF39F8DE344E9B6AF747E8D1AA00C6 /* Pods-SoundWavePlayerTests-dummy.m */,
+				64B2435E287BFED414F1EC5EBC366E34 /* Pods-SoundWavePlayerTests-frameworks.sh */,
+				AFE9B4E703FEEC1856D5B1764A5A64A2 /* Pods-SoundWavePlayerTests-resources.sh */,
+				6AF2ED3D05BCEDF69D0CFADEECAA66CC /* Pods-SoundWavePlayerTests-umbrella.h */,
+				229514520F334AC7FEDD73D49B933D4A /* Pods-SoundWavePlayerTests.debug.xcconfig */,
+				76126F45A4AC2D101DF2F0767F1D7E38 /* Pods-SoundWavePlayerTests.release.xcconfig */,
+			);
+			name = "Pods-SoundWavePlayerTests";
+			path = "Target Support Files/Pods-SoundWavePlayerTests";
+			sourceTree = "<group>";
+		};
+		34E36287EC0128FF8E4A2BB593A6318B /* Pods-SoundWavePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				DEFFB8006AD50244E5A1A958D6ED7A9F /* Info.plist */,
+				26B15C187B0458D3CDBA0278A262E9F1 /* Pods-SoundWavePlayer.modulemap */,
+				ACBAD0D5781F4DFA0F03495554291C5E /* Pods-SoundWavePlayer-acknowledgements.markdown */,
+				EE806B003E33FDD0136958FAB8339F40 /* Pods-SoundWavePlayer-acknowledgements.plist */,
+				8BFF47616B20003F9BB36794F7EA16EA /* Pods-SoundWavePlayer-dummy.m */,
+				1C1F32FED55B5362635D055EC49EB695 /* Pods-SoundWavePlayer-frameworks.sh */,
+				223692F85874B3BC68B32D6CFD316067 /* Pods-SoundWavePlayer-resources.sh */,
+				EE197EDA1027CE76343E0F93750187E2 /* Pods-SoundWavePlayer-umbrella.h */,
+				6F65917A92C7172398CDB768FBE8C53E /* Pods-SoundWavePlayer.debug.xcconfig */,
+				0C45203E01305F0B585607FBE69B884C /* Pods-SoundWavePlayer.release.xcconfig */,
+			);
+			name = "Pods-SoundWavePlayer";
+			path = "Target Support Files/Pods-SoundWavePlayer";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				B360185072C22658CB272A3002F318FA /* Pods */,
+				A89BBDE8C5A0C4F48421AD0AB98B0C36 /* Products */,
+				E41AD0102FD1DCF6718E9534F7478B98 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9E8A25BB72EEDD4871980664F20F638F /* CircularSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				E157CA20EE0CAEB4588BFA6155554569 /* CircularSpinner.swift */,
+				DE52FE3A05DC0044F53261C81AB178C3 /* CircularSpinner.xib */,
+				D688B243D8119B87613D020D63040804 /* x_darkGray@2x.png */,
+				DDCDA638329F3BCB147C17B6B38D3FB5 /* x_darkGray@3x.png */,
+				1AAF8578A86EEA2210BAD53E2263F34D /* Resources */,
+				1AD185FF6C8C446D32072A520F8C6D13 /* Support Files */,
+			);
+			name = CircularSpinner;
+			path = CircularSpinner;
+			sourceTree = "<group>";
+		};
+		A86E3951DCF2E141877FB0A7D9B2A479 /* waveFormLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				F161D73F78632CD30464D9A03046C306 /* CheapMp3.swift */,
+				7B2EEDC188CB631F89970CD287330E05 /* ControllerWaveForm.swift */,
+				77C80D785E3B5F8A98AFB28C933819FB /* ControllerWF.swift */,
+				85345F50F832DDB28E31EF7D23C29E4C /* CustomButtom.swift */,
+				C56B1C849D5B1144DEF3B948DB7649F4 /* PlayButtonView.swift */,
+				8ECE5C62FF4A167F4B4091793BF18335 /* UtilFunction.swift */,
+				CE01E5F4FE9096F652F5037DBEF39A7B /* WaveForm.swift */,
+				AD51A7D730814CC626EB83C00F886232 /* WaveFormView.swift */,
+				B515BE1C2DB2C2FE4C1477D54F24B1DB /* Support Files */,
+			);
+			name = waveFormLibrary;
+			path = waveFormLibrary;
+			sourceTree = "<group>";
+		};
+		A89BBDE8C5A0C4F48421AD0AB98B0C36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D5F8A3CC9C88BB35EBA7D89D6F2BA12 /* CircularSpinner.bundle */,
+				B060837F90E42498F2D044B893C860E1 /* CircularSpinner.framework */,
+				C0BFE41092FA0778E33E8472FF80F30F /* Pods_SoundWavePlayer.framework */,
+				99E7C46B04D4480B1C1AE43F56535A50 /* Pods_SoundWavePlayerTests.framework */,
+				84D361EAC2DCC5C0F7BCF7E1B1327F11 /* waveFormLibrary.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B360185072C22658CB272A3002F318FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E8A25BB72EEDD4871980664F20F638F /* CircularSpinner */,
+				A86E3951DCF2E141877FB0A7D9B2A479 /* waveFormLibrary */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B515BE1C2DB2C2FE4C1477D54F24B1DB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02BA47F67851B1C34105D3D8E3945C74 /* Info.plist */,
+				45FEC931A09FA7A8409957A609487FE5 /* waveFormLibrary.modulemap */,
+				2FD29B702097BF706CA694BC03C43F2C /* waveFormLibrary.xcconfig */,
+				20120FBCCDC63C85F1EE0D1846ADD10F /* waveFormLibrary-dummy.m */,
+				9BCF86D9243947CB20BBEB3F3A8E67AF /* waveFormLibrary-prefix.pch */,
+				48426EE82018711E764FE03747D66721 /* waveFormLibrary-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/waveFormLibrary";
+			sourceTree = "<group>";
+		};
+		E41AD0102FD1DCF6718E9534F7478B98 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34E36287EC0128FF8E4A2BB593A6318B /* Pods-SoundWavePlayer */,
+				232099C897F9337550B3B953C14B6AA3 /* Pods-SoundWavePlayerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4BD12AE3563E1EB088825CCAA2FDD145 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C71AFEDCF18DFAF546217AB8EDA1A0 /* CircularSpinner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C770C08AC39AB16A84965CFAB72CDB5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBCF37FDC7C88782742E0056FF7B454 /* waveFormLibrary-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFAA1AB2BD79FCBA68E411254C9597C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E2A186CCA5C80FB72F348F54E49581 /* Pods-SoundWavePlayerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A8D611A2807F541B392E4E33671A51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A494F8837E5569378458B2AFF7E981F0 /* Pods-SoundWavePlayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		45020DA2D8BCBF01CE6466C35717D3C6 /* Pods-SoundWavePlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D565760ED7D20D4E7C4D5E99CBA42D23 /* Build configuration list for PBXNativeTarget "Pods-SoundWavePlayerTests" */;
+			buildPhases = (
+				877DD9F6A74DE69B3167BDB7041E62A5 /* Sources */,
+				287FECA9F70AAB0D43481F55A817318D /* Frameworks */,
+				8EFAA1AB2BD79FCBA68E411254C9597C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SoundWavePlayerTests";
+			productName = "Pods-SoundWavePlayerTests";
+			productReference = 99E7C46B04D4480B1C1AE43F56535A50 /* Pods_SoundWavePlayerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C49DBDF368B4EF3160DFA21A67459786 /* waveFormLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB120C5EC683BF4EFFB52BAFAA566E5B /* Build configuration list for PBXNativeTarget "waveFormLibrary" */;
+			buildPhases = (
+				669B84E0C5156E959C2B3BA5425A0234 /* Sources */,
+				F525C9FB19B7FC86BD631F39E314D163 /* Frameworks */,
+				5C770C08AC39AB16A84965CFAB72CDB5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = waveFormLibrary;
+			productName = waveFormLibrary;
+			productReference = 84D361EAC2DCC5C0F7BCF7E1B1327F11 /* waveFormLibrary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C63CB4AE559E609E163642ED2A914D4D /* CircularSpinner-CircularSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80683BC148A69CAF4ABC5D1CF9CA6E7E /* Build configuration list for PBXNativeTarget "CircularSpinner-CircularSpinner" */;
+			buildPhases = (
+				7D98B7267CA9D90CDCA727C8572A551E /* Sources */,
+				5CF133044F16DEDFBD7533F1443E7BD0 /* Frameworks */,
+				EB0BCBB5083A961BA4E833768C2BC931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CircularSpinner-CircularSpinner";
+			productName = "CircularSpinner-CircularSpinner";
+			productReference = 2D5F8A3CC9C88BB35EBA7D89D6F2BA12 /* CircularSpinner.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D780F80A5793F3EFDAC1606AAA75B388 /* CircularSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72494B3FBCCB2284E8DE5C6F15FD9AE0 /* Build configuration list for PBXNativeTarget "CircularSpinner" */;
+			buildPhases = (
+				0F7D7FE685B7081B5AB244B155CE8FB5 /* Sources */,
+				815D5A1AA0A09FC09DB8538A8F0F5C4B /* Frameworks */,
+				CC78F8626BCAEACE8CFEB354BB9B85AB /* Resources */,
+				4BD12AE3563E1EB088825CCAA2FDD145 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F2227A818FD7FE0AD4623B6A69DB33D /* PBXTargetDependency */,
+			);
+			name = CircularSpinner;
+			productName = CircularSpinner;
+			productReference = B060837F90E42498F2D044B893C860E1 /* CircularSpinner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0848D32D462B79697E43C8BCADFC07D /* Pods-SoundWavePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C537BA7E2F3829BCEB8A29A2EB4FE243 /* Build configuration list for PBXNativeTarget "Pods-SoundWavePlayer" */;
+			buildPhases = (
+				7F01FB4F738E053A826312FFF7414AE3 /* Sources */,
+				DBF5A0BEAAFDFA0316FCDA068433F9C3 /* Frameworks */,
+				C0A8D611A2807F541B392E4E33671A51 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E55E54445ED0668C4A31E1939799646B /* PBXTargetDependency */,
+				A88F0F59D5F43F3212A9D94644D26FCE /* PBXTargetDependency */,
+			);
+			name = "Pods-SoundWavePlayer";
+			productName = "Pods-SoundWavePlayer";
+			productReference = C0BFE41092FA0778E33E8472FF80F30F /* Pods_SoundWavePlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A89BBDE8C5A0C4F48421AD0AB98B0C36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D780F80A5793F3EFDAC1606AAA75B388 /* CircularSpinner */,
+				C63CB4AE559E609E163642ED2A914D4D /* CircularSpinner-CircularSpinner */,
+				E0848D32D462B79697E43C8BCADFC07D /* Pods-SoundWavePlayer */,
+				45020DA2D8BCBF01CE6466C35717D3C6 /* Pods-SoundWavePlayerTests */,
+				C49DBDF368B4EF3160DFA21A67459786 /* waveFormLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC78F8626BCAEACE8CFEB354BB9B85AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C71D0F1ABC3D66F3C5CE74B3C158C2D /* CircularSpinner.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0BCBB5083A961BA4E833768C2BC931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19634A70810ECCF2DAA3E15FBC61A2F4 /* x_darkGray@2x.png in Resources */,
+				B9CA717C44476274DEA770B24A811DCB /* x_darkGray@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F7D7FE685B7081B5AB244B155CE8FB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E128CEB957FB781DEFE5F100296D3E /* CircularSpinner-dummy.m in Sources */,
+				AF4DED0E2AC5C98BA856E752FB6D653E /* CircularSpinner.swift in Sources */,
+				23D7D136C4A7FD5F577D9136E9766AD4 /* CircularSpinner.xib in Sources */,
+				DD8837B78A8A7637683FE9908DDF09B2 /* x_darkGray@2x.png in Sources */,
+				754C8514EF548AAE3EC1473710F2C2CF /* x_darkGray@3x.png in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669B84E0C5156E959C2B3BA5425A0234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2514AA031D335B355FD9BF70A1D2ED0C /* CheapMp3.swift in Sources */,
+				2A270F10600B4ECE2BA206DA1BA68A9C /* ControllerWaveForm.swift in Sources */,
+				EC85D5A4F490BBAC176641D900DCEAC1 /* ControllerWF.swift in Sources */,
+				871ECC2F576D74B2DE569B910432EB44 /* CustomButtom.swift in Sources */,
+				8F40648760C8AEC3A62E8E353314F013 /* PlayButtonView.swift in Sources */,
+				B437E9BF92BBBD95FCC24B4BE97579B2 /* UtilFunction.swift in Sources */,
+				762391BBD436B5E89CC0AB0B9DD1F996 /* WaveForm.swift in Sources */,
+				F2D597777BDE021E2FB117E25C14F34D /* waveFormLibrary-dummy.m in Sources */,
+				A0DC60168BA566439D224D1DEFFB7D4A /* WaveFormView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D98B7267CA9D90CDCA727C8572A551E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F01FB4F738E053A826312FFF7414AE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0DD749562E1CA4916A0BF83CB9DF348 /* Pods-SoundWavePlayer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877DD9F6A74DE69B3167BDB7041E62A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA9A04998222FF2077598E4E8A4474D /* Pods-SoundWavePlayerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F2227A818FD7FE0AD4623B6A69DB33D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CircularSpinner-CircularSpinner";
+			target = C63CB4AE559E609E163642ED2A914D4D /* CircularSpinner-CircularSpinner */;
+			targetProxy = 8829F8979CB71E0870826A8FB7EB26E4 /* PBXContainerItemProxy */;
+		};
+		A88F0F59D5F43F3212A9D94644D26FCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = waveFormLibrary;
+			target = C49DBDF368B4EF3160DFA21A67459786 /* waveFormLibrary */;
+			targetProxy = AA04585276906A1433DA53887AF50799 /* PBXContainerItemProxy */;
+		};
+		E55E54445ED0668C4A31E1939799646B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CircularSpinner;
+			target = D780F80A5793F3EFDAC1606AAA75B388 /* CircularSpinner */;
+			targetProxy = 564302A4555CEE87DC94E2EF65DE15DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		166E2CAC58E8608AD59A6F0B71C9C3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		35BC0967DC45C3327D6BD90FEAE67B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B05F71C3A7A84D3CFD9D65060498DFA /* CircularSpinner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CircularSpinner/CircularSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CircularSpinner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CircularSpinner/CircularSpinner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CircularSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E4719DE27F6638E4EC75724E080EA67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FD29B702097BF706CA694BC03C43F2C /* waveFormLibrary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/waveFormLibrary/waveFormLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/waveFormLibrary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/waveFormLibrary/waveFormLibrary.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = waveFormLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		92A93FBB8EB31293B9618BA404908BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B05F71C3A7A84D3CFD9D65060498DFA /* CircularSpinner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CircularSpinner/CircularSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CircularSpinner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CircularSpinner/CircularSpinner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CircularSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		94CD1A4590D7F42F803C98903F0ABAC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F65917A92C7172398CDB768FBE8C53E /* Pods-SoundWavePlayer.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SoundWavePlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SoundWavePlayer/Pods-SoundWavePlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SoundWavePlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		99FCD80E7889CC3451F9DF284D7FFDB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76126F45A4AC2D101DF2F0767F1D7E38 /* Pods-SoundWavePlayerTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SoundWavePlayerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SoundWavePlayerTests/Pods-SoundWavePlayerTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SoundWavePlayerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F338AE7EF257E368CBF73C1C354A688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C45203E01305F0B585607FBE69B884C /* Pods-SoundWavePlayer.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SoundWavePlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SoundWavePlayer/Pods-SoundWavePlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SoundWavePlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE34A3AD43205457EBFAB6FC47DF8549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B05F71C3A7A84D3CFD9D65060498DFA /* CircularSpinner.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CircularSpinner";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/CircularSpinner/ResourceBundle-CircularSpinner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CircularSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C2EB71E8722CBFDFF805660DACC4B2B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FD29B702097BF706CA694BC03C43F2C /* waveFormLibrary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/waveFormLibrary/waveFormLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/waveFormLibrary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/waveFormLibrary/waveFormLibrary.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = waveFormLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D28C0D1FC583FDC16F810168A01767BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 229514520F334AC7FEDD73D49B933D4A /* Pods-SoundWavePlayerTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SoundWavePlayerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SoundWavePlayerTests/Pods-SoundWavePlayerTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SoundWavePlayerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7819BA69AFFBE11371D75D310BB645E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B05F71C3A7A84D3CFD9D65060498DFA /* CircularSpinner.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CircularSpinner";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/CircularSpinner/ResourceBundle-CircularSpinner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CircularSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166E2CAC58E8608AD59A6F0B71C9C3E0 /* Debug */,
+				AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72494B3FBCCB2284E8DE5C6F15FD9AE0 /* Build configuration list for PBXNativeTarget "CircularSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35BC0967DC45C3327D6BD90FEAE67B2E /* Debug */,
+				92A93FBB8EB31293B9618BA404908BEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80683BC148A69CAF4ABC5D1CF9CA6E7E /* Build configuration list for PBXNativeTarget "CircularSpinner-CircularSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE34A3AD43205457EBFAB6FC47DF8549 /* Debug */,
+				D7819BA69AFFBE11371D75D310BB645E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB120C5EC683BF4EFFB52BAFAA566E5B /* Build configuration list for PBXNativeTarget "waveFormLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E4719DE27F6638E4EC75724E080EA67 /* Debug */,
+				C2EB71E8722CBFDFF805660DACC4B2B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C537BA7E2F3829BCEB8A29A2EB4FE243 /* Build configuration list for PBXNativeTarget "Pods-SoundWavePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94CD1A4590D7F42F803C98903F0ABAC8 /* Debug */,
+				9F338AE7EF257E368CBF73C1C354A688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D565760ED7D20D4E7C4D5E99CBA42D23 /* Build configuration list for PBXNativeTarget "Pods-SoundWavePlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28C0D1FC583FDC16F810168A01767BB /* Debug */,
+				99FCD80E7889CC3451F9DF284D7FFDB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

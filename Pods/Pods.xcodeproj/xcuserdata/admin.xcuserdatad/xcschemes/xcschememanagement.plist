@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CircularSpinner-CircularSpinner.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>CircularSpinner.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SoundWavePlayer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SoundWavePlayerTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>waveFormLibrary.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>45020DA2D8BCBF01CE6466C35717D3C6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C49DBDF368B4EF3160DFA21A67459786</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C63CB4AE559E609E163642ED2A914D4D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D780F80A5793F3EFDAC1606AAA75B388</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E0848D32D462B79697E43C8BCADFC07D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

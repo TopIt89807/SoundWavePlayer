@@ -1,0 +1,15 @@
+PODS:
+  - CircularSpinner (1.2.0)
+  - waveFormLibrary (1.0)
+
+DEPENDENCIES:
+  - CircularSpinner
+  - waveFormLibrary (~> 1.0)
+
+SPEC CHECKSUMS:
+  CircularSpinner: 80b8ee3eda59b66d20631d4ca7c7c83720931739
+  waveFormLibrary: 37fb01c1e45c421c4383cf69721f925dbce98e09
+
+PODFILE CHECKSUM: e063c1b72e711bd6e2d145aefdd3763dbb9cdb0f
+
+COCOAPODS: 1.2.1

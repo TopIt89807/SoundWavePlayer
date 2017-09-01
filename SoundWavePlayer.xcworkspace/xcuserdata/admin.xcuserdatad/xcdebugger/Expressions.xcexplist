@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "GLOBAL">
+         <PersistentStrings>
+            <PersistentString
+               value = "destinationUrl.path">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WaveFormView.computeDoublesForAllZoomLevels() -&gt; ():WaveFormView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "getMeasuredWidth()">
+            </PersistentString>
+            <PersistentString
+               value = "mLenByZoomLevel[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LocalTableViewController.tableView(UITableView, didSelectRowAt : IndexPath) -&gt; ():LocalTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "array[indexPath.row]">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.viewDidLoad() -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!">
+            </PersistentString>
+            <PersistentString
+               value = "url.absoluteString">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WaveFormView.setFileUrl(url : URL) throws -&gt; ():WaveFormView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "mSamplesPerFrame">
+            </PersistentString>
+            <PersistentString
+               value = "mSampleRate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BookmarkTableViewController.tableView(UITableView, commit : UITableViewCellEditingStyle, forRowAt : IndexPath) -&gt; ():BookmarkTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ControllerWaveForm.waveformZoomIn() -&gt; ():ControllerWaveForm.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "mEndPos">
+            </PersistentString>
+            <PersistentString
+               value = "mOffset">
+            </PersistentString>
+            <PersistentString
+               value = "mStartPos">
+            </PersistentString>
+            <PersistentString
+               value = "mMaxPos">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WaveFormView.draw(CGRect) -&gt; ():WaveFormView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "label.layer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WaveFormView.millisecsToPixels(msecs : Int) -&gt; Int:WaveFormView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "mSampleRate">
+            </PersistentString>
+            <PersistentString
+               value = "mZoomLevel">
+            </PersistentString>
+            <PersistentString
+               value = "first/last">
+            </PersistentString>
+            <PersistentString
+               value = "mZoomFactorByZoomLevel">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WaveFormView.zoomIn() -&gt; ():WaveFormView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "mSelectionStart">
+            </PersistentString>
+            <PersistentString
+               value = "mLenByZoomLevel">
+            </PersistentString>
+            <PersistentString
+               value = "mOffset">
+            </PersistentString>
+            <PersistentString
+               value = "mZoomLevel">
+            </PersistentString>
+            <PersistentString
+               value = "mSelectionEnd">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
